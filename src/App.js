@@ -13,7 +13,7 @@ class App extends Component {
 
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
-
+          <Route path="/" render={() => <div>Page Not Found</div>} />
       </Switch>
       </BrowserRouter>
     </div>)

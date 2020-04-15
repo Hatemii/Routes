@@ -11,6 +11,7 @@ const About = () => {
       <div>
         <h2>About</h2>
         <div>Welcome To About Page</div>
+        <Link to="/">Home</Link>
       </div>
     )
   }
