@@ -6,12 +6,14 @@ import {
   Link
 } from "react-router-dom";
 
-const About = () => {
+const About = ({history}) => {
     return(
       <div>
         <h2>About</h2>
         <div>Welcome To About Page</div>
-        <Link to="/">Home</Link>
+          <button onClick={() =>
+              history.push("/")
+            }>About</button>
       </div>
     )
   }
